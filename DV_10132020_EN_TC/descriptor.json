@@ -1,0 +1,16 @@
+﻿{
+  "Descriptor": {
+    "UId": "0e874f41-f3e7-3db5-4a7a-cecae07adef9",
+    "Name": "DV_10132020_EN_TC",
+    "ModifiedOnUtc": "\/Date(1602600089000)\/",
+    "Maintainer": "Customer",
+    "Description": "DV_10132020_EN_TC Terrasoft.Configuration",
+    "DependsOn": [
+      {
+        "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
+        "PackageVersion": "7.8.0",
+        "Name": "Studio"
+      }
+    ]
+  }
+}

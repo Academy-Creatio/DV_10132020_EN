@@ -6,7 +6,10 @@
 
 # Development on Creation Platform (DV_10132020_EN) with _[Kirill Krylov][aboutKirill]_
 General description of topics covered can be found [here][wikiTraining]
-If you gave any questions or issues please raise them [here][issues], or you email me directly.
+If you have any questions or issues please raise them [here][issues], or email me directly.
+
+
+
 
 ## Academy Articles
 - [CRUD Operations][crud]
@@ -22,12 +25,12 @@ If you gave any questions or issues please raise them [here][issues], or you ema
 - [Expense Report Start Package][pExpenseReportStart]
 
 ## FEEDBACK
-Thank you for having taken development training with me. In order to make this class better, please offer your feedback through **[feedback form][FeedBackForm]**.It is very important for me to know where and how I can improve.
+Thank you for having taken development training with me. In order to make this class better, please offer your feedback 
+through **[feedback form][FeedBackForm]**.It is very important for me to know where and how I can improve.
 
 ## Video recordings (Files will be deleted on 12 Nov, 2020)
 | Day      | Play           | Download          | Chat        |
 |:--------:|:--------------:|:-----------------:|:------------|
-
 <!--
 | Day 1    | [Play][Day1P]  |[Download][Day1D]  |[Chat][Day1C]|
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
@@ -40,6 +43,17 @@ Thank you for having taken development training with me. In order to make this c
 
 -->
 
+
+## Individual Assignments
+<details>
+	<summary>Day 1</summary>
+
+- [Install][wikiInstallCreatio] local development environment
+- Convert Creatio to development in [File System Mode][wikiFileSystemMode]
+- Configure your own [logger][wikiLogging]
+- Pull [Expense Report Start][pExpenseReportStart] package and install it
+
+</details>
 
 
 <!-- Named Links-->
@@ -64,6 +78,13 @@ Thank you for having taken development training with me. In order to make this c
 [aboutKirill]:https://github.com/Academy-Creatio/TrainingProgramm/wiki/Kirill-Krylov,-CPA
 [wikiTraining]:https://github.com/Academy-Creatio/TrainingProgramm/wiki
 [issues]:https://github.com/Academy-Creatio/DV_10132020_EN/issues
+
+
+[wikiLogging]:https://github.com/Academy-Creatio/TrainingProgramm/wiki/Custom-Logging-with-NLog
+[wikiFileSystemMode]:https://github.com/Academy-Creatio/TrainingProgramm/wiki/Enable-development-in-FileSystem-Mode
+[wikiInstallCreatio]: https://github.com/Academy-Creatio/TrainingProgramm/wiki/How-To-Install-Creatio
+
+
 <!-- Video Links-->
 
 <!--
