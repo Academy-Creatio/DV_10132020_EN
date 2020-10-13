@@ -6,7 +6,7 @@
 
 # Development on Creation Platform (DV_10132020_EN) with _[Kirill Krylov][aboutKirill]_
 General description of topics covered can be found [here][wikiTraining]
-If you gave any questions or issues please raise them here, or you can email me.
+If you gave any questions or issues please raise them [here][issues], or you email me directly.
 
 ## Academy Articles
 - [CRUD Operations][crud]
@@ -19,7 +19,7 @@ If you gave any questions or issues please raise them here, or you can email me.
 - [oData Version 3][oData3]
 - [oData Version 4][oData4]
 - [Foreign Exchange][pForeignExchange]
-
+- [Expense Report Start Package][pExpenseReportStart]
 
 ## FEEDBACK
 Thank you for having taken development training with me. In order to make this class better, please offer your feedback through **[feedback form][FeedBackForm]**.It is very important for me to know where and how I can improve.
@@ -31,6 +31,12 @@ Thank you for having taken development training with me. In order to make this c
 <!--
 | Day 1    | [Play][Day1P]  |[Download][Day1D]  |[Chat][Day1C]|
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
+| Day 3    | [Play][Day3P]  |[Download][Day3D]  |[Chat][Day3C]|
+| Day 4    | [Play][Day4P]  |[Download][Day4D]  |[Chat][Day4C]|
+| Day 5    | [Play][Day5P]  |[Download][Day5D]  |[Chat][Day5C]|
+| Day 6    | [Play][Day6P]  |[Download][Day6D]  |[Chat][Day6C]|
+| Day 7    | [Play][Day7P]  |[Download][Day7D]  |[Chat][Day7C]|
+| Day 8    | [Play][Day8P]  |[Download][Day8D]  |[Chat][Day8C]|
 
 -->
 
@@ -38,7 +44,8 @@ Thank you for having taken development training with me. In order to make this c
 
 <!-- Named Links-->
 [pForeignExchange]: https://github.com/Academy-Creatio/ForeignExchange
-[FeedBackForm]:https://forms.office.com/Pages/ResponsePage.aspx?id=-6Jce0OmhUOLOTaTQnDHFk3iHAmpFPVKqTMROu_2ZVhUQUxGSUJCRk1XUDVUQ1JVVVFENzdCWDFRUSQlQCN0PWcu
+[pExpenseReportStart]:[https://github.com/Academy-Creatio/ExpenseReportStart]
+[FeedBackForm]:https://forms.office.com/Pages/ResponsePage.aspx?id=-6Jce0OmhUOLOTaTQnDHFmSQPwRGgxpCmR4ucwVD2MxUOEE4UzZWRUpHQVlKQjFMVzRES1ZaNlRKQyQlQCN0PWcu
 [aFeatureToggle]: https://academy.creatio.com/documents/technic-sdk/7-16/feature-toggle-mechanism-enabling-and-disabling-functions
 
 
@@ -56,6 +63,7 @@ Thank you for having taken development training with me. In order to make this c
 [crud]: https://academy.creatio.com/documents/technic-sdk/7-16/crud-operations
 [aboutKirill]:https://github.com/Academy-Creatio/TrainingProgramm/wiki/Kirill-Krylov,-CPA
 [wikiTraining]:https://github.com/Academy-Creatio/TrainingProgramm/wiki
+[issues]:https://github.com/Academy-Creatio/DV_10132020_EN/issues
 <!-- Video Links-->
 
 <!--
