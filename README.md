@@ -31,8 +31,8 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 ## Video recordings (Files will be deleted on 12 Nov, 2020)
 | Day      | Play           | Download          | Chat        |
 |:--------:|:--------------:|:-----------------:|:------------|
-<!--
 | Day 1    | [Play][Day1P]  |[Download][Day1D]  |[Chat][Day1C]|
+<!--
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
 | Day 3    | [Play][Day3P]  |[Download][Day3D]  |[Chat][Day3C]|
 | Day 4    | [Play][Day4P]  |[Download][Day4D]  |[Chat][Day4C]|
@@ -51,7 +51,7 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 - [Install][wikiInstallCreatio] local development environment
 - Convert Creatio to development in [File System Mode][wikiFileSystemMode]
 - Configure your own [logger][wikiLogging]
-- Pull [Expense Report Start][pExpenseReportStart] package and install it
+<!-- - Pull [Expense Report Start][pExpenseReportStart] package and install it -->
 
 </details>
 
@@ -87,11 +87,11 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 
 <!-- Video Links-->
 
-<!--
-[Day1P]: https://us02web.zoom.us/rec/play/UoMgYzZeOuCImmYWuUnxWSkmtcr0BwSIYwbIrXYddEiVo-lwUPuOkDnbv2EN5GbrbRMNFsexhpG0x8I.Fbuvju363wiVaPoH
-[Day1D]: https://us02web.zoom.us/rec/download/UoMgYzZeOuCImmYWuUnxWSkmtcr0BwSIYwbIrXYddEiVo-lwUPuOkDnbv2EN5GbrbRMNFsexhpG0x8I.Fbuvju363wiVaPoH
-[Day1C]: https://us02web.zoom.us/rec/download/0OgLrd_xHTjPsZN7LAvZMsWg6C3YGdNOYPOQMldz4CiWyk43gQppEYXtaibADmYHlV3i7exYOiw69Ydl.kYQemcyBr8ha0dH_
+[Day1P]: https://us02web.zoom.us/rec/play/TyO4naRdYlFH0HIWJeb6hhdsj0TydJ8eeGvuAi1A0qwQJ60lPFg_hJq32ZATNWUJ2brnqMlf8YVYHbCn.CVf5-Y9DkEkF4chX
+[Day1D]: https://us02web.zoom.us/rec/download/TyO4naRdYlFH0HIWJeb6hhdsj0TydJ8eeGvuAi1A0qwQJ60lPFg_hJq32ZATNWUJ2brnqMlf8YVYHbCn.CVf5-Y9DkEkF4chX
+[Day1C]: https://us02web.zoom.us/rec/download/yyQMtoH7fciTaIhwP4j4x1r67GtpHwBmIi--kmIwiQgKMQLSQJOzu2DDygQCgueB4LYt9-C5UihMzITx.R4G9nVTCcibDyeGZ
 
+<!--
 
 [Day2P]: https://us02web.zoom.us/rec/play/ZFfSe6HwNM3IYGyb9RyRpx0lIjw2ysm8L9KyRnKHPSQ9AP9HoUh0JF_-aAhLqZr95a4OzPkNxncH-jHk.vNsKKEnApMUVgUTB
 [Day2D]: https://us02web.zoom.us/rec/download/ZFfSe6HwNM3IYGyb9RyRpx0lIjw2ysm8L9KyRnKHPSQ9AP9HoUh0JF_-aAhLqZr95a4OzPkNxncH-jHk.vNsKKEnApMUVgUTB
