@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DV_10132020_EN_INTERFACES;
+using System;
 using System.ServiceModel;
 using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
@@ -31,12 +32,20 @@ namespace DV_10132020_EN_CLIO
 			return "Ok";
 		}
 
+
+		/// <summary>
+		/// Call this service from [AppPath]/0/rest/CreatioWsTemplate/GetMethodname
+		/// </summary>
+		/// <returns></returns>
 		[OperationContract]
 		[WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
 		public string GetMethodname()
 		{
 			UserConnection userConnection = UserConnection ?? SystemUserConnection;
 
+
+			IMsgChannelUtilities msg = Terrasoft.Core.Factories.ClassFactory.Get<IMsgChannelUtilities>();
+			msg.PostMessage(userConnection, GetType().FullName, "WebSocket Message with factories");
 			var h = new helper1();
 
 

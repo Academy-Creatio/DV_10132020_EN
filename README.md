@@ -103,7 +103,7 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 
 
 [Day2P]: https://us02web.zoom.us/rec/play/IoxPuLEXWbbZ5VolndAPelobEYscN1h8YzNFLyzrsYc0cf8akgEJJrp_enZ6b_vS02BUsJR2kFy1oFWF.qe8za6PDrQ5ByEZW
-[Day2D]: https://us02web.zoom.us/rec/download/8JgMY8P_sUmq97PNYjhN1M37l2o3iO_bP8baZdIf6u2yfg_uBrw220sN3Ud3ATTvR54azDU6CsFl3Kgd.-IG6rd0IECvhx3bl
+[Day2D]: https://us02web.zoom.us/rec/download/IoxPuLEXWbbZ5VolndAPelobEYscN1h8YzNFLyzrsYc0cf8akgEJJrp_enZ6b_vS02BUsJR2kFy1oFWF.qe8za6PDrQ5ByEZW
 [Day2C]: https://us02web.zoom.us/rec/download/8JgMY8P_sUmq97PNYjhN1M37l2o3iO_bP8baZdIf6u2yfg_uBrw220sN3Ud3ATTvR54azDU6CsFl3Kgd.-IG6rd0IECvhx3bl
 
 <!--
