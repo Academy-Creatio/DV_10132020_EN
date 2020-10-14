@@ -116,7 +116,7 @@
           "BO3": true,
           "BP2": [],
           "CL2": "FFFFFFFF",
-          "CH1": "ILog _logger = LogManager.GetLogger(\"GuidedLearningLogger\");\n_logger.Info(\"Hello world\");\nvar a = \"\";\nreturn true;",
+          "CH1": "ILog _logger = LogManager.GetLogger(\"GuidedLearningLogger\");\n_logger.Info(\"Hello world\");\nDV_10132020_EN_INTERFACES.Ihelper1 ih = Terrasoft.Core.Factories.ClassFactory.Get<DV_10132020_EN_INTERFACES.Ihelper1>();\n_logger.Info(ih.AddNumbers(5, 7).ToString());\nvar a = \"\";\nreturn true;",
           "CH2": true
         },
         {

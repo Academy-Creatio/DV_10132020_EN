@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "93bbb7ff-881a-42a2-9448-227d1795258d",
+    "PackageVersion": "7.8.0",
+    "Name": "DV_10132020_EN_CLIO",
+    "ModifiedOnUtc": "\/Date(1602663664000)\/",
+    "Maintainer": "Customer",
+    "Description": "DV_10132020_EN_CLIO Clio Package",
+    "DependsOn": [
+      {
+        "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
+        "PackageVersion": "7.8.0",
+        "Name": "Studio"
+      }
+    ]
+  }
+}

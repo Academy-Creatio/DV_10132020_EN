@@ -8,7 +8,9 @@
 General description of topics covered can be found [here][wikiTraining]
 If you have any questions or issues please raise them [here][issues], or email me directly.
 
-
+## Visual Studio - Item Templates
+Please copy content of DV_10132020_ITEM_TEMPLATES folder to
+%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates\Visual C#
 
 
 ## Academy Articles
@@ -32,8 +34,8 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 | Day      | Play           | Download          | Chat        |
 |:--------:|:--------------:|:-----------------:|:------------|
 | Day 1    | [Play][Day1P]  |[Download][Day1D]  |[Chat][Day1C]|
-<!--
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
+<!--
 | Day 3    | [Play][Day3P]  |[Download][Day3D]  |[Chat][Day3C]|
 | Day 4    | [Play][Day4P]  |[Download][Day4D]  |[Chat][Day4C]|
 | Day 5    | [Play][Day5P]  |[Download][Day5D]  |[Chat][Day5C]|
@@ -46,11 +48,19 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 
 ## Individual Assignments
 <details>
-	<summary>Day 1</summary>
+<summary>Day 1 - Environment Set up</summary>
 
 - [Install][wikiInstallCreatio] local development environment
 - Convert Creatio to development in [File System Mode][wikiFileSystemMode]
 - Configure your own [logger][wikiLogging]
+<!-- - Pull [Expense Report Start][pExpenseReportStart] package and install it -->
+
+</details>
+
+<details>
+<summary>Day 2 - Clio</summary>
+
+- Create and interface and implement a class inside Terrasoft.Configuration that will allow Clio project to send WebSocket Messages (MsgChannelUtilities). You can observer messages on **ViewModule.aspx.ashx** page
 <!-- - Pull [Expense Report Start][pExpenseReportStart] package and install it -->
 
 </details>
@@ -91,10 +101,33 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 [Day1D]: https://us02web.zoom.us/rec/download/TyO4naRdYlFH0HIWJeb6hhdsj0TydJ8eeGvuAi1A0qwQJ60lPFg_hJq32ZATNWUJ2brnqMlf8YVYHbCn.CVf5-Y9DkEkF4chX
 [Day1C]: https://us02web.zoom.us/rec/download/yyQMtoH7fciTaIhwP4j4x1r67GtpHwBmIi--kmIwiQgKMQLSQJOzu2DDygQCgueB4LYt9-C5UihMzITx.R4G9nVTCcibDyeGZ
 
+
+[Day2P]: https://us02web.zoom.us/rec/play/IoxPuLEXWbbZ5VolndAPelobEYscN1h8YzNFLyzrsYc0cf8akgEJJrp_enZ6b_vS02BUsJR2kFy1oFWF.qe8za6PDrQ5ByEZW
+[Day2D]: https://us02web.zoom.us/rec/download/8JgMY8P_sUmq97PNYjhN1M37l2o3iO_bP8baZdIf6u2yfg_uBrw220sN3Ud3ATTvR54azDU6CsFl3Kgd.-IG6rd0IECvhx3bl
+[Day2C]: https://us02web.zoom.us/rec/download/8JgMY8P_sUmq97PNYjhN1M37l2o3iO_bP8baZdIf6u2yfg_uBrw220sN3Ud3ATTvR54azDU6CsFl3Kgd.-IG6rd0IECvhx3bl
+
 <!--
+[Day3P]: 
+[Day3D]: 
+[Day3C]: 
 
-[Day2P]: https://us02web.zoom.us/rec/play/ZFfSe6HwNM3IYGyb9RyRpx0lIjw2ysm8L9KyRnKHPSQ9AP9HoUh0JF_-aAhLqZr95a4OzPkNxncH-jHk.vNsKKEnApMUVgUTB
-[Day2D]: https://us02web.zoom.us/rec/download/ZFfSe6HwNM3IYGyb9RyRpx0lIjw2ysm8L9KyRnKHPSQ9AP9HoUh0JF_-aAhLqZr95a4OzPkNxncH-jHk.vNsKKEnApMUVgUTB
-[Day2C]: https://us02web.zoom.us/rec/download/057pYa3UFhuz0jdfW5fz2ZKpyp3iwaZFJ5Q8Bz_WXNMIm1-ah41hsNJTnt8FGdaMj2lvklyH-pTYAz-w.6vbxT0k-Nch1rKpW
+[Day4P]: 
+[Day4D]: 
+[Day4C]: 
 
+[Day5P]: 
+[Day5D]: 
+[Day5C]: 
+
+[Day6P]: 
+[Day6D]: 
+[Day6C]: 
+
+[Day7P]: 
+[Day7D]: 
+[Day7C]: 
+
+[Day8P]: 
+[Day8D]: 
+[Day8C]: 
 -->
