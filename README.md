@@ -68,7 +68,7 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 
 <!-- Named Links-->
 [pForeignExchange]: https://github.com/Academy-Creatio/ForeignExchange
-[pExpenseReportStart]:[https://github.com/Academy-Creatio/ExpenseReportStart]
+[pExpenseReportStart]:https://github.com/Academy-Creatio/ExpenseReportStart
 [FeedBackForm]:https://forms.office.com/Pages/ResponsePage.aspx?id=-6Jce0OmhUOLOTaTQnDHFmSQPwRGgxpCmR4ucwVD2MxUOEE4UzZWRUpHQVlKQjFMVzRES1ZaNlRKQyQlQCN0PWcu
 [aFeatureToggle]: https://academy.creatio.com/documents/technic-sdk/7-16/feature-toggle-mechanism-enabling-and-disabling-functions
 
