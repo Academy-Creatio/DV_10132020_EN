@@ -23,6 +23,9 @@ Please copy content of DV_10132020_ITEM_TEMPLATES folder to
 - [Data Service][DataService]
 - [oData Version 3][oData3]
 - [oData Version 4][oData4]
+
+## Other projects we will make use of
+- [Working with Data][pWorkingWithData] - Day 3
 - [Foreign Exchange][pForeignExchange]
 - [Expense Report Start Package][pExpenseReportStart]
 
@@ -35,8 +38,8 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 |:--------:|:--------------:|:-----------------:|:------------|
 | Day 1    | [Play][Day1P]  |[Download][Day1D]  |[Chat][Day1C]|
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
-<!--
 | Day 3    | [Play][Day3P]  |[Download][Day3D]  |[Chat][Day3C]|
+<!--
 | Day 4    | [Play][Day4P]  |[Download][Day4D]  |[Chat][Day4C]|
 | Day 5    | [Play][Day5P]  |[Download][Day5D]  |[Chat][Day5C]|
 | Day 6    | [Play][Day6P]  |[Download][Day6D]  |[Chat][Day6C]|
@@ -45,6 +48,20 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 
 -->
 
+## Building joins with ESQ
+```cs
+//Left join 
+esq.addColumn(">Account.Name") or esq.addColumn("Account.Name")
+ 
+//Right join
+esq.addColumn("<Account.Name")
+ 
+//Inner join
+esq.addColumn("=Account.Name")
+ 
+//Cross join
+esq.addColumn("<>Account.Name")
+```
 
 ## Individual Assignments
 <details>
@@ -65,10 +82,19 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 
 </details>
 
+<details>
+<summary>Day 3 - Working with Data</summary>
+
+- 
+<!-- - Pull [Expense Report Start][pExpenseReportStart] package and install it -->
+
+</details>
+
 
 <!-- Named Links-->
 [pForeignExchange]: https://github.com/Academy-Creatio/ForeignExchange
 [pExpenseReportStart]:https://github.com/Academy-Creatio/ExpenseReportStart
+[pWorkingWithData]: https://github.com/Academy-Creatio/WorkshopWorkingWithData_2020-08-11
 [FeedBackForm]:https://forms.office.com/Pages/ResponsePage.aspx?id=-6Jce0OmhUOLOTaTQnDHFmSQPwRGgxpCmR4ucwVD2MxUOEE4UzZWRUpHQVlKQjFMVzRES1ZaNlRKQyQlQCN0PWcu
 [aFeatureToggle]: https://academy.creatio.com/documents/technic-sdk/7-16/feature-toggle-mechanism-enabling-and-disabling-functions
 
@@ -106,10 +132,10 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 [Day2D]: https://us02web.zoom.us/rec/download/IoxPuLEXWbbZ5VolndAPelobEYscN1h8YzNFLyzrsYc0cf8akgEJJrp_enZ6b_vS02BUsJR2kFy1oFWF.qe8za6PDrQ5ByEZW
 [Day2C]: https://us02web.zoom.us/rec/download/8JgMY8P_sUmq97PNYjhN1M37l2o3iO_bP8baZdIf6u2yfg_uBrw220sN3Ud3ATTvR54azDU6CsFl3Kgd.-IG6rd0IECvhx3bl
 
+[Day3P]: https://us02web.zoom.us/rec/play/SFN7MSG0DdMCO7IDT8eN3Q0usvv2-A4vdfxbVAYM_zVd8CzC_puHuBHavofaU1TpZK3eVM6eFHo-S87F._qUqOTG26TD2ZK0h
+[Day3D]: https://us02web.zoom.us/rec/download/SFN7MSG0DdMCO7IDT8eN3Q0usvv2-A4vdfxbVAYM_zVd8CzC_puHuBHavofaU1TpZK3eVM6eFHo-S87F._qUqOTG26TD2ZK0h
+[Day3C]: https://us02web.zoom.us/rec/download/M_uCNpfY7inT-y9OpeBSwQodIGSxCKT1vtNcv2AviY4lEcpgRqF1kqZyFCASrNt80FQ3sX__PZ_-6YRQ.gLve25_iSiq3fvW4
 <!--
-[Day3P]: 
-[Day3D]: 
-[Day3C]: 
 
 [Day4P]: 
 [Day4D]: 

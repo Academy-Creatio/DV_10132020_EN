@@ -42,12 +42,10 @@ namespace DV_10132020_EN_CLIO
 		public string GetMethodname()
 		{
 			UserConnection userConnection = UserConnection ?? SystemUserConnection;
-
-
+			
 			IMsgChannelUtilities msg = Terrasoft.Core.Factories.ClassFactory.Get<IMsgChannelUtilities>();
 			msg.PostMessage(userConnection, GetType().FullName, "WebSocket Message with factories");
 			var h = new helper1();
-
 
 			return h.GetName();
 		}
