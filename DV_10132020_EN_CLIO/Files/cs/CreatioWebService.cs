@@ -5,6 +5,8 @@ using System.ServiceModel.Activation;
 using System.ServiceModel.Web;
 using Terrasoft.Core;
 using Terrasoft.Web.Common;
+using ForeignExchange;
+using Newtonsoft.Json;
 
 namespace DV_10132020_EN_CLIO
 {
@@ -42,12 +44,18 @@ namespace DV_10132020_EN_CLIO
 		public string GetMethodname()
 		{
 			UserConnection userConnection = UserConnection ?? SystemUserConnection;
-			
-			IMsgChannelUtilities msg = Terrasoft.Core.Factories.ClassFactory.Get<IMsgChannelUtilities>();
-			msg.PostMessage(userConnection, GetType().FullName, "WebSocket Message with factories");
-			var h = new helper1();
 
-			return h.GetName();
+			//DV_10132020_EN_INTERFACES.IBank ecb = BankFactory.GetBank(BankFactory.SupportedBanks.ECB);
+			var api = Terrasoft.Core.Factories.ClassFactory.Get<DV_10132020_EN_INTERFACES.IForeignExchangeApi>();
+			
+			var result = api.GetBOCRate("USD", DateTime.Now);
+
+			var json = JsonConvert.SerializeObject(result);
+
+			IMsgChannelUtilities msg = Terrasoft.Core.Factories.ClassFactory.Get<IMsgChannelUtilities>();
+			msg.PostMessage(userConnection, GetType().FullName, json);
+
+			return json;
 		}
 
 		#endregion

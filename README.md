@@ -39,8 +39,8 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 | Day 1    | [Play][Day1P]  |[Download][Day1D]  |[Chat][Day1C]|
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
 | Day 3    | [Play][Day3P]  |[Download][Day3D]  |[Chat][Day3C]|
+| Day 4    | [Play][Day4P]  |[Download][Day4D]  |  |
 <!--
-| Day 4    | [Play][Day4P]  |[Download][Day4D]  |[Chat][Day4C]|
 | Day 5    | [Play][Day5P]  |[Download][Day5D]  |[Chat][Day5C]|
 | Day 6    | [Play][Day6P]  |[Download][Day6D]  |[Chat][Day6C]|
 | Day 7    | [Play][Day7P]  |[Download][Day7D]  |[Chat][Day7C]|
@@ -62,6 +62,14 @@ esq.addColumn("=Account.Name")
 //Cross join
 esq.addColumn("<>Account.Name")
 ```
+
+## SQL to convert UserTask to Process Element (do data binding after)
+```SQL
+insert into SysProcessUserTask(SysUserTaskSchemaUId, Caption)
+select s.UId, s.Caption from SysSchema s
+where s.Name = 'ForeignExchange'
+```
+
 
 ## Individual Assignments
 <details>
@@ -135,11 +143,11 @@ esq.addColumn("<>Account.Name")
 [Day3P]: https://us02web.zoom.us/rec/play/SFN7MSG0DdMCO7IDT8eN3Q0usvv2-A4vdfxbVAYM_zVd8CzC_puHuBHavofaU1TpZK3eVM6eFHo-S87F._qUqOTG26TD2ZK0h
 [Day3D]: https://us02web.zoom.us/rec/download/SFN7MSG0DdMCO7IDT8eN3Q0usvv2-A4vdfxbVAYM_zVd8CzC_puHuBHavofaU1TpZK3eVM6eFHo-S87F._qUqOTG26TD2ZK0h
 [Day3C]: https://us02web.zoom.us/rec/download/M_uCNpfY7inT-y9OpeBSwQodIGSxCKT1vtNcv2AviY4lEcpgRqF1kqZyFCASrNt80FQ3sX__PZ_-6YRQ.gLve25_iSiq3fvW4
-<!--
 
-[Day4P]: 
-[Day4D]: 
-[Day4C]: 
+[Day4P]: https://us02web.zoom.us/rec/play/paUT4fnxhmxe3eKtAjsJ8mIcQ4HD1ebbhp4cEe2MeWQ3l0Tm0F7llu2elEwazfoSlRGJ_0MH6_m-oNzf.3tIINzkFX9JAr18B
+[Day4D]: https://us02web.zoom.us/rec/download/paUT4fnxhmxe3eKtAjsJ8mIcQ4HD1ebbhp4cEe2MeWQ3l0Tm0F7llu2elEwazfoSlRGJ_0MH6_m-oNzf.3tIINzkFX9JAr18B
+
+<!--
 
 [Day5P]: 
 [Day5D]: 

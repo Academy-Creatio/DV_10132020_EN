@@ -1,0 +1,223 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "ProcessUserTaskSchemaManager",
+      "UId": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+      "A2": "ForeignExchange",
+      "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+      "B1": [
+        {
+          "UId": "46387658-2240-4e66-8aee-56f33c349725",
+          "A2": "GetResultParameterAllValues",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "Dictionary<Guid, string>",
+          "C2": true,
+          "C3": true,
+          "C4": "return new Dictionary<Guid, string>();",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "1d4f01e2-1bf6-48c9-a0ca-867b64ebfae0",
+              "A2": "userConnection",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "UserConnection"
+            },
+            {
+              "UId": "7a75ee4f-ef77-42ed-8f7b-af3fde8a5ab7",
+              "A2": "schemaUserTask",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "ProcessSchemaUserTask"
+            }
+          ]
+        },
+        {
+          "UId": "ac8839f3-d662-4114-9ffd-339adb1ae928",
+          "A2": "CompleteExecuting",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "bool",
+          "C2": true,
+          "C3": true,
+          "C4": "return base.CompleteExecuting(parameters);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "80c1bc60-7bf0-4fed-95f0-cffd434c4400",
+              "A2": "parameters",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "object[]",
+              "AA3": true
+            }
+          ]
+        },
+        {
+          "UId": "e749c70f-3f8a-4c17-a449-348320b37f3b",
+          "A2": "CancelExecuting",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.CancelExecuting(parameters);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "254af91d-e118-4128-8d5a-320433f18521",
+              "A2": "parameters",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "object[]",
+              "AA3": true
+            }
+          ]
+        },
+        {
+          "UId": "d0a382d1-8057-4565-bdfd-46abaf8e0651",
+          "A2": "GetExecutionData",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "string",
+          "C2": true,
+          "C3": true,
+          "C4": "return string.Empty;",
+          "C6": [],
+          "C7": []
+        },
+        {
+          "UId": "7e492975-c2ee-4b33-ad22-7f8a4e92a961",
+          "A2": "SynchronizeDynamicParameters",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.SynchronizeDynamicParameters(userConnection, target);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "8622eb72-d05f-4c67-bb9e-55698e3d6229",
+              "A2": "userConnection",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "UserConnection"
+            },
+            {
+              "UId": "52bac323-7d49-4bc9-930b-dacb414e43c4",
+              "A2": "target",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "ProcessUserTaskSchema"
+            }
+          ]
+        },
+        {
+          "UId": "fd2c5c15-60ca-4e3c-8ed5-faf2d07a31dc",
+          "A2": "SynchronizeParameters",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "void",
+          "C2": true,
+          "C3": true,
+          "C4": "base.SynchronizeParameters(schemaElement);",
+          "C6": [],
+          "C7": [
+            {
+              "UId": "a91d12a9-24ee-474b-b5aa-aa809abc2ab9",
+              "A2": "schemaElement",
+              "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+              "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+              "AA2": "ProcessSchemaUserTask"
+            }
+          ]
+        },
+        {
+          "UId": "b84f33f0-416c-4623-9b74-54d8b02e2a14",
+          "A2": "GetNotificationData",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A5": "3cc77f56-409b-4ad2-bcf2-8ac2984dd0fa",
+          "C1": "ProcessElementNotification",
+          "C2": true,
+          "C3": true,
+          "C4": "return base.GetNotificationData();",
+          "C6": [],
+          "C7": []
+        }
+      ],
+      "B2": [],
+      "B3": [],
+      "B6": "93bbb7ff-881a-42a2-9448-227d1795258d",
+      "B8": "7.16.4.1731",
+      "FJ1": [
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "46cfbf43-1fd1-4e86-8fed-11f4f377c000",
+          "A2": "IN_BankName",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {}
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "f3f6af78-c5aa-40bf-a41d-cefe9d2f8102",
+          "A2": "IN_Date",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "L1": "603d4960-a1a2-45e9-b232-206a54421b01",
+          "L8": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "b1d8533a-23b1-4e6f-af17-405488782828",
+          "A2": "IN_Currency",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "L1": "8b3f29bb-ea14-4ce5-a5c5-293a929b6ba2",
+          "L8": {}
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "832dc9d5-54e2-485c-93be-3746f55ac195",
+          "A2": "OUT_RateDate",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "L1": "603d4960-a1a2-45e9-b232-206a54421b01",
+          "L8": {
+            "GS2": ""
+          }
+        },
+        {
+          "BL1": "Terrasoft.Core.Process.ProcessSchemaParameter",
+          "UId": "0260da5e-0107-405b-b94e-ce9d636b127e",
+          "A2": "OUT_ExchangeRate",
+          "A3": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "A4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
+          "L1": "ff22e049-4d16-46ee-a529-92d8808932dc",
+          "L8": {
+            "GS2": ""
+          }
+        }
+      ],
+      "FK1": "var api = Factories.ClassFactory.Get<DV_10132020_EN_INTERFACES.IForeignExchangeApi>();\nDV_10132020_EN_INTERFACES.BankResult result = null;\n\nswitch (IN_BankName)\n{\n\tcase \"ECB\":\n\t\tresult = api.GetEcbRate(IN_Currency, IN_Date);\n\t\tbreak;\n\tcase \"BOC\":\n\t\tresult = api.GetBOCRate(IN_Currency, IN_Date);\n\t\tbreak;\n\tdefault:\n\t\tbreak;\n}\nOUT_ExchangeRate = result.ExchangeRate;\nOUT_RateDate = result.RateDate;\nreturn true;",
+      "FK11": "1191e2ac-2291-4ed3-bc9e-93ca87119f6c",
+      "FK12": "#000000"
+    }
+  }
+}
