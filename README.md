@@ -40,8 +40,8 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 | Day 2    | [Play][Day2P]  |[Download][Day2D]  |[Chat][Day2C]|
 | Day 3    | [Play][Day3P]  |[Download][Day3D]  |[Chat][Day3C]|
 | Day 4    | [Play][Day4P]  |[Download][Day4D]  |  |
+| Day 5    | [Play][Day5P]  |[Download][Day5D]  |  |
 <!--
-| Day 5    | [Play][Day5P]  |[Download][Day5D]  |[Chat][Day5C]|
 | Day 6    | [Play][Day6P]  |[Download][Day6D]  |[Chat][Day6C]|
 | Day 7    | [Play][Day7P]  |[Download][Day7D]  |[Chat][Day7C]|
 | Day 8    | [Play][Day8P]  |[Download][Day8D]  |[Chat][Day8C]|
@@ -90,11 +90,13 @@ where s.Name = 'ForeignExchange'
 
 </details>
 
-<details>
-<summary>Day 3 - Working with Data</summary>
+<details>vat
+<summary>Day 3 and 4 - Working with Data</summary>
 
-- 
-<!-- - Pull [Expense Report Start][pExpenseReportStart] package and install it -->
+- Add new activity type, and change the overlapping activity code to only detect your own activity type
+- Try to build a class that would check VAT number aginst the oficial VIES database (https://ec.europa.eu/taxation_customs/vies/technicalInformation.html)
+Implement an entity event listener for the Account  entity to validate VAT. Add VAT field to account.
+
 
 </details>
 
@@ -147,11 +149,11 @@ where s.Name = 'ForeignExchange'
 [Day4P]: https://us02web.zoom.us/rec/play/paUT4fnxhmxe3eKtAjsJ8mIcQ4HD1ebbhp4cEe2MeWQ3l0Tm0F7llu2elEwazfoSlRGJ_0MH6_m-oNzf.3tIINzkFX9JAr18B
 [Day4D]: https://us02web.zoom.us/rec/download/paUT4fnxhmxe3eKtAjsJ8mIcQ4HD1ebbhp4cEe2MeWQ3l0Tm0F7llu2elEwazfoSlRGJ_0MH6_m-oNzf.3tIINzkFX9JAr18B
 
-<!--
 
-[Day5P]: 
-[Day5D]: 
+[Day5P]: https://us02web.zoom.us/rec/play/SJbvurRuCp8d6OgJiTz_-7lUIMSVEtVdp86E66ME1kOT7sB7RvcSDIhmGrubsRqQf9SLgzWx5OILjRl2.Ix2uF1C-ztsUOfnd
+[Day5D]: https://us02web.zoom.us/rec/download/SJbvurRuCp8d6OgJiTz_-7lUIMSVEtVdp86E66ME1kOT7sB7RvcSDIhmGrubsRqQf9SLgzWx5OILjRl2.Ix2uF1C-ztsUOfnd
 [Day5C]: 
+<!--
 
 [Day6P]: 
 [Day6D]: 

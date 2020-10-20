@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -28,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Label="TemplateBuilder">
     <TemplateBuilderTargets Condition=" '$(TemplateBuilderTargets)'=='' ">$([System.IO.Path]::GetFullPath( $(MSBuildProjectDirectory)\..\packages\TemplateBuilder.1.1.6.1\tools\ligershark.templates.targets ))</TemplateBuilderTargets>
@@ -145,6 +147,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\CbrDailyInfo\Reference.cs" />
+    <Compile Include="Connected Services\VIES\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Files\cs\AppEvent.cs" />
     <Compile Include="Files\cs\Contact.cs" />
     <Compile Include="Files\cs\CreatioWebService.cs" />
@@ -162,11 +169,29 @@
     <Compile Include="Files\ForeignExcahnge\IBankResult.cs" />
     <Compile Include="Files\ForeignExcahnge\NationalBankOfUkraine.cs" />
     <Compile Include="Files\StolenFromTC\MsgChannelUtilities.cs" />
+    <Compile Include="Files\VIES\WebServices\ValidateVat.cs" />
+    <Compile Include="Files\VIES\WebServices\ValidateVatWs.cs" />
+    <Compile Include="Files\VIES\WebServices\VatResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <!-- ##BpmonlineSDKMarker## -->
   <ItemGroup>
     <Content Include="Assemblies\**\*.*" />
+    <None Include="Connected Services\VIES\configuration91.svcinfo" />
+    <None Include="Connected Services\VIES\configuration.svcinfo" />
+    <None Include="Connected Services\VIES\DV_10132020_EN_CLIO.VIES.checkVatApproxResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\VIES\DV_10132020_EN_CLIO.VIES.checkVatResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\VIES\DV_10132020_EN_CLIO.VIES.matchCode.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\VIES\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Data\**\*.*" />
     <Content Include="Resources\**\*.*" />
     <Content Include="Schemas\**\*.*" />
@@ -176,6 +201,7 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Connected Services\CbrDailyInfo\ConnectedService.json" />
+    <None Include="Connected Services\VIES\checkVatTestService.wsdl" />
     <None Include="descriptor.json" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -184,6 +210,12 @@
       <Project>{da918818-15df-48b0-8228-e2218bbfddac}</Project>
       <Name>DV_10132020_EN_INTERFACES</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\VIES\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(TemplateBuilderTargets)" Condition="Exists('$(TemplateBuilderTargets)')" Label="TemplateBuilder" />

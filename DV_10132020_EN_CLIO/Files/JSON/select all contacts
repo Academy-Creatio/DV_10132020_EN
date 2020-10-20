@@ -1,0 +1,218 @@
+{
+	"rootSchemaName": "Contact",
+	"operationType": 0,
+	"includeProcessExecutionData": true,
+	"filters": {
+		"items": {
+			"af306a86-77ce-4198-833b-c1f62dddf79d": {
+				"items": {
+					"CustomFilters": {
+						"items": {
+							"1fb3996d-009e-4cc8-a5e4-245d8d23d473": {
+								"filterType": 1,
+								"comparisonType": 3,
+								"isEnabled": true,
+								"trimDateTimeParameterToDate": false,
+								"leftExpression": {
+									"expressionType": 0,
+									"columnPath": "Email"
+								},
+								"rightExpression": {
+									"expressionType": 2,
+									"parameter": {
+										"dataValueType": 1,
+										"value": "k.krylov@creatio.com"
+									}
+								}
+							},
+							"555f60c2-e616-4e8a-8970-081f3c3038a2": {
+								"filterType": 5,
+								"comparisonType": 15,
+								"isEnabled": true,
+								"trimDateTimeParameterToDate": false,
+								"leftExpression": {
+									"expressionType": 0,
+									"columnPath": "[ContactCommunication:Contact].Id"
+								},
+								"subFilters": {
+									"items": {
+										"f53c76d3-6594-49c1-bb69-cab6562a0bf0": {
+											"filterType": 1,
+											"comparisonType": 3,
+											"isEnabled": true,
+											"trimDateTimeParameterToDate": false,
+											"leftExpression": {
+												"expressionType": 0,
+												"columnPath": "Number"
+											},
+											"rightExpression": {
+												"expressionType": 2,
+												"parameter": {
+													"dataValueType": 1,
+													"value": "k.krylov@cretio.com"
+												}
+											}
+										}
+									},
+									"logicalOperation": 0,
+									"isEnabled": true,
+									"filterType": 6,
+									"rootSchemaName": "ContactCommunication"
+								}
+							}
+						},
+						"logicalOperation": 1,
+						"isEnabled": true,
+						"filterType": 6,
+						"rootSchemaName": "Contact"
+					}
+				},
+				"logicalOperation": 0,
+				"isEnabled": true,
+				"filterType": 6
+			}
+		},
+		"logicalOperation": 0,
+		"isEnabled": true,
+		"filterType": 6
+	},
+	"columns": {
+		"items": {
+			"Id": {
+				"caption": "",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Id"
+				}
+			},
+			"Name": {
+				"caption": "",
+				"orderDirection": 1,
+				"orderPosition": 1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Name"
+				}
+			},
+			"Photo": {
+				"caption": "",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Photo"
+				}
+			},
+			"Job": {
+				"caption": "Job title",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Job"
+				}
+			},
+			"Phone": {
+				"caption": "Business phone",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Phone"
+				}
+			},
+			"Account": {
+				"caption": "Account",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Account"
+				}
+			},
+			"Email": {
+				"caption": "Email",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "Email"
+				}
+			},
+			"MobilePhone": {
+				"caption": "Mobile phone",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 0,
+					"columnPath": "MobilePhone"
+				}
+			},
+			"[Activity:Owner].DurationInMinutes#oduxgmylxfe": {
+				"caption": "Activity (by column Owner).Duration (minutes)",
+				"orderDirection": 0,
+				"orderPosition": -1,
+				"isVisible": true,
+				"expression": {
+					"expressionType": 3,
+					"functionType": 2,
+					"aggregationType": 2,
+					"columnPath": "[Activity:Owner].DurationInMinutes",
+					"subFilters": {
+						"items": {
+							"559a0831-16af-4a3c-8803-8c43c1200c7f": {
+								"filterType": 1,
+								"comparisonType": 7,
+								"isEnabled": true,
+								"trimDateTimeParameterToDate": false,
+								"leftExpression": {
+									"expressionType": 0,
+									"columnPath": "DurationInMinutes"
+								},
+								"rightExpression": {
+									"expressionType": 2,
+									"parameter": {
+										"dataValueType": 4,
+										"value": 60
+									}
+								}
+							}
+						},
+						"logicalOperation": 0,
+						"isEnabled": true,
+						"filterType": 6,
+						"rootSchemaName": "Activity"
+					}
+				}
+			}
+		}
+	},
+	"isDistinct": false,
+	"rowCount": 15,
+	"rowsOffset": 0,
+	"isPageable": true,
+	"allColumns": false,
+	"useLocalization": true,
+	"useRecordDeactivation": false,
+	"serverESQCacheParameters": {
+		"cacheLevel": 0,
+		"cacheGroup": "",
+		"cacheItemName": ""
+	},
+	"queryOptimize": false,
+	"useMetrics": false,
+	"querySource": 0,
+	"ignoreDisplayValues": false,
+	"conditionalValues": null,
+	"isHierarchical": false
+}
