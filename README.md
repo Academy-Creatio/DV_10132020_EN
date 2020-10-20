@@ -152,7 +152,6 @@ Implement an entity event listener for the Account  entity to validate VAT. Add 
 
 [Day5P]: https://us02web.zoom.us/rec/play/SJbvurRuCp8d6OgJiTz_-7lUIMSVEtVdp86E66ME1kOT7sB7RvcSDIhmGrubsRqQf9SLgzWx5OILjRl2.Ix2uF1C-ztsUOfnd
 [Day5D]: https://us02web.zoom.us/rec/download/SJbvurRuCp8d6OgJiTz_-7lUIMSVEtVdp86E66ME1kOT7sB7RvcSDIhmGrubsRqQf9SLgzWx5OILjRl2.Ix2uF1C-ztsUOfnd
-[Day5C]: 
 <!--
 
 [Day6P]: 
