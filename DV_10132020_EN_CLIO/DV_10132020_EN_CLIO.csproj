@@ -142,7 +142,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Files\EntityEventListener\" />
     <Folder Include="Files\WebServices\" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +155,7 @@
     <Compile Include="Files\cs\Contact.cs" />
     <Compile Include="Files\cs\CreatioWebService.cs" />
     <Compile Include="Files\cs\helper1.cs" />
+    <Compile Include="Files\EntityEventListener\ExpenseReportLinesEventListener.cs" />
     <Compile Include="Files\ForeignExcahnge\BankFactory.cs" />
     <Compile Include="Files\ForeignExcahnge\BankOfAustralia.cs" />
     <Compile Include="Files\ForeignExcahnge\BankOfCanada.cs" />

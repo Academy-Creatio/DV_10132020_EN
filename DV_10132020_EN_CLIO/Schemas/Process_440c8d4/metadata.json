@@ -96,7 +96,6 @@
           "GT4": "b5936328-09b2-45fd-b763-48d37c265644",
           "GT1": {
             "GS1": 1,
-            "GS2": "{\"$type\":\"System.Collections.Generic.List`1[[System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib]], mscorlib\",\"$values\":[{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib\",\"Id\":\"c7376e32-8268-4e29-8456-632abd169531\",\"controlEditType\":\"1\",\"caption\":\"FxRate\",\"name\":\"FxRate\",\"text\":\"\",\"isMultiline\":false,\"isRequired\":false,\"canBeMinimized\":true,\"minimized\":false,\"dataSource\":null,\"dataFilter\":\"\",\"controlDataValueType\":\"10\",\"dateTimeFormat\":\"7\"},{\"$type\":\"System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Object, mscorlib]], mscorlib\",\"Id\":\"23888fe7-6478-4471-ab42-a678765fea82\",\"controlEditType\":\"DateTimeField\",\"caption\":\"Rate Date\",\"name\":\"PageItem1\",\"text\":\"\",\"isMultiline\":false,\"isRequired\":false,\"canBeMinimized\":true,\"minimized\":false,\"dataSource\":null,\"dataFilter\":\"\",\"controlDataValueType\":\"10\",\"dateTimeFormat\":\"8\"}]}",
             "GS5": "1bf80d92-a23c-4c49-9be7-3b70e9ee5794"
           }
         },
@@ -207,7 +206,6 @@
           "GT4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
           "GT1": {
             "GS1": 1,
-            "GS2": "ECB",
             "GS5": "1bf80d92-a23c-4c49-9be7-3b70e9ee5794"
           }
         },
@@ -237,8 +235,7 @@
           "GT5": "b1d8533a-23b1-4e6f-af17-405488782828",
           "GT4": "b415e97c-08a3-4510-98a1-a1c4f2f3fe93",
           "GT1": {
-            "GS1": 1,
-            "GS2": "JPY"
+            "GS1": 1
           }
         },
         {
