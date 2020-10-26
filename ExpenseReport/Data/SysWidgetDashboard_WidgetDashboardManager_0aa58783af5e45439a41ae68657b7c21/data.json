@@ -1,0 +1,33 @@
+﻿{
+  "PackageData": [
+    {
+      "Row": [
+        {
+          "SchemaColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+          "Value": "0aa58783-af5e-4543-9a41-ae68657b7c21"
+        },
+        {
+          "SchemaColumnUId": "a215f575-7283-41bd-8852-b2415a935051",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "78ed4015-b81f-49fc-9d50-847cf8df5e6c",
+          "Value": 0
+        },
+        {
+          "SchemaColumnUId": "fb750eb9-35b6-463e-b3b8-1a69ec871e43",
+          "Value": ""
+        },
+        {
+          "SchemaColumnUId": "551ce105-25dc-4a76-b318-cf37635e88c3",
+          "Value": "{\"Indicator1f1d1665-56f5-425a-95a2-9310bea360dc\":{\"widgetType\":\"Indicator\",\"parameters\":{\"caption\":\"Foreign Total\",\"sectionBindingColumn\":\"ExpenseReport\",\"sectionId\":\"ccb8fc7d-399a-413c-b3f0-0edefca52a9e\",\"entitySchemaName\":\"ExpenseReportLines\",\"filterData\":\"{\\\"className\\\":\\\"Terrasoft.FilterGroup\\\",\\\"items\\\":{},\\\"logicalOperation\\\":0,\\\"isEnabled\\\":true,\\\"filterType\\\":6,\\\"rootSchemaName\\\":\\\"ExpenseReportLines\\\",\\\"key\\\":\\\"\\\"}\",\"aggregationType\":2,\"columnName\":\"AmountFC\",\"format\":{\"textDecorator\":\"{0}\",\"type\":5,\"decimalPrecision\":2},\"style\":\"widget-coral\",\"fontStyle\":\"big-indicator-font-size\"}}}"
+        },
+        {
+          "SchemaColumnUId": "9eedf8ab-d02e-4a4a-9f9d-19ede1c873bc",
+          "Value": "null",
+          "DisplayValue": ""
+        }
+      ]
+    }
+  ]
+}

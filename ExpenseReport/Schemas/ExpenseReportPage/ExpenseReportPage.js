@@ -130,6 +130,25 @@ define("ExpenseReportPage", [], function() {
 						//this.showInformationDialog(body.SumHC);
 					}
 				}
+			},
+			onMyButtonClick: function(){
+                    var recordId = this.$Description;
+                    var serviceData = {
+                        vatId: recordId
+                    };
+                    ServiceHelper.callService("C#ClassName", "C#MethodName",
+                        function(response) {
+                            var result = response.GetContactIdByNameResult;
+							
+							this.showInformationDialog(result);
+                        }, serviceData, this);
+                
+				
+				
+				
+				var Id = this.$Id;
+				var Name = this.$Name;
+				this.showInformationDialog("My Page Button Clicked "+Name+" "+Id);
 			}
 		},
 		dataModels: /**SCHEMA_DATA_MODELS*/{}/**SCHEMA_DATA_MODELS*/,
@@ -344,6 +363,27 @@ define("ExpenseReportPage", [], function() {
 				"name": "ESNTab",
 				"values": {
 					"order": 2
+				}
+			},
+/**
+ * Button
+ */
+
+			{
+				"operation": "insert",
+				"parentName": "LeftContainer",
+				"propertyName": "items",
+				"name": "MyButton",
+				"values": {
+					itemType: Terrasoft.ViewItemType.BUTTON,
+					caption: "My Page Button",
+					click: {bindTo: "onMyButtonClick"},
+					enabled: true,
+					"layout": {
+						"column": 1,
+						"row": 6,
+						"colSpan": 1
+					}
 				}
 			}
 		]/**SCHEMA_DIFF*/

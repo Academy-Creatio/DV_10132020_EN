@@ -24,7 +24,7 @@ namespace VIES
 
 		#region Methods : REST
 		[OperationContract]
-		[WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, UriTemplate ="ViesValidate?vatId={vatId}",
+		[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json,
 			BodyStyle = WebMessageBodyStyle.WrappedRequest, ResponseFormat = WebMessageFormat.Json)]
 		public VatResponse Validate(string vatId)
 		{

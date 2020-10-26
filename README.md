@@ -43,10 +43,8 @@ through **[feedback form][FeedBackForm]**.It is very important for me to know wh
 | Day 5    | [Play][Day5P]  |[Download][Day5D]  |  |
 | Day 6    | [Play][Day6P]  |[Download][Day6D]  |[Chat][Day6C]|
 | Day 7    | [Play][Day7P]  |[Download][Day7D]  |[Chat][Day7C]|
-<!--
-| Day 8    | [Play][Day8P]  |[Download][Day8D]  |[Chat][Day8C]|
+| Day 8    | [Play][Day8P]  |[Download][Day8D]  |  |
 
--->
 
 ## Building joins with ESQ
 ```cs
@@ -149,20 +147,17 @@ Implement an entity event listener for the Account  entity to validate VAT. Add 
 [Day4P]: https://us02web.zoom.us/rec/play/paUT4fnxhmxe3eKtAjsJ8mIcQ4HD1ebbhp4cEe2MeWQ3l0Tm0F7llu2elEwazfoSlRGJ_0MH6_m-oNzf.3tIINzkFX9JAr18B
 [Day4D]: https://us02web.zoom.us/rec/download/paUT4fnxhmxe3eKtAjsJ8mIcQ4HD1ebbhp4cEe2MeWQ3l0Tm0F7llu2elEwazfoSlRGJ_0MH6_m-oNzf.3tIINzkFX9JAr18B
 
-
 [Day5P]: https://us02web.zoom.us/rec/play/SJbvurRuCp8d6OgJiTz_-7lUIMSVEtVdp86E66ME1kOT7sB7RvcSDIhmGrubsRqQf9SLgzWx5OILjRl2.Ix2uF1C-ztsUOfnd
 [Day5D]: https://us02web.zoom.us/rec/download/SJbvurRuCp8d6OgJiTz_-7lUIMSVEtVdp86E66ME1kOT7sB7RvcSDIhmGrubsRqQf9SLgzWx5OILjRl2.Ix2uF1C-ztsUOfnd
 
 [Day6P]: https://us02web.zoom.us/rec/play/wTz0ItpnI3mA3jBaaD0pCxWjgqeUKc223lTCpSEGUBRw0wNjAplYzLjCgCHxhoE0MgMMe1aBtk7DVJuK.XnSti8EVssJNaXOl
 [Day6D]: https://us02web.zoom.us/rec/download/wTz0ItpnI3mA3jBaaD0pCxWjgqeUKc223lTCpSEGUBRw0wNjAplYzLjCgCHxhoE0MgMMe1aBtk7DVJuK.XnSti8EVssJNaXOl
-[Day6C]: https://us02web.zoom.us/rec/download/NJZNww03jV7ACIQel7SVI_5CkR3WQsvu-s2XmClZhLcRkTelpTuwtMbpDDfiNIsvqVa9_uBIE6auiL6d.lDlFUHAgWy0ohPYK
+[Day6C]: https://us02web.zoom.us/rec/play/NJZNww03jV7ACIQel7SVI_5CkR3WQsvu-s2XmClZhLcRkTelpTuwtMbpDDfiNIsvqVa9_uBIE6auiL6d.lDlFUHAgWy0ohPYK
 
 [Day7P]: https://us02web.zoom.us/rec/play/gmRekwofmIzVyS_GQ63tCaqcRf9gCLO95Zw0Vj5UJ_46hX8n-96ROcxdpKtm7EUrkwKc3QoWy6Z9LtYN.j7cdxi2EnJoLEETa
 [Day7D]: https://us02web.zoom.us/rec/download/gmRekwofmIzVyS_GQ63tCaqcRf9gCLO95Zw0Vj5UJ_46hX8n-96ROcxdpKtm7EUrkwKc3QoWy6Z9LtYN.j7cdxi2EnJoLEETa
 [Day7C]: https://us02web.zoom.us/rec/download/KsJYWuG99JMl_fGV8qKD1zlC2lkCsbnbK-icfXivtQxNiggDx8bRqmjT3Di0ZtW-JNCD5zTJ8-nEw6DR.xz7PyZ1vagOyA9PY
 
-<!--
-[Day8P]: 
-[Day8D]: 
-[Day8C]: 
--->
+[Day8P]: https://us02web.zoom.us/rec/play/kX4R_u1mFijq-kgIdmWcd8M_T17y9sYfzmUKCmRoEjpjZaTFbKnfloBoVGLaLCVyuEkYD7t9U8OMT1GQ.KaJtbT33vSkkRzh_
+[Day8D]: https://us02web.zoom.us/rec/download/kX4R_u1mFijq-kgIdmWcd8M_T17y9sYfzmUKCmRoEjpjZaTFbKnfloBoVGLaLCVyuEkYD7t9U8OMT1GQ.KaJtbT33vSkkRzh_
+
